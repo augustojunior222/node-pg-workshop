@@ -1,4 +1,4 @@
-# flask-postgresql-workshop
+# node-pg-workshop
 
 
 
