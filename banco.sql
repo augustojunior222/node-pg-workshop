@@ -1,4 +1,4 @@
-CREATE DATABASE public.nodeapi;
+-- CREATE DATABASE public.nodeapi;
 
 -- public.books definition
 
