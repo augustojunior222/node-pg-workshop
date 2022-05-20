@@ -1,3 +1,5 @@
+CREATE DATABASE public.nodeapi;
+
 -- public.books definition
 
 -- Drop table
