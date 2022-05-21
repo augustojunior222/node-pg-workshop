@@ -9,7 +9,7 @@ const getBooks = (request, response) => {
 		}
 		response.status(200).json(results.rows)
 	})
-}
+};
 
 const getBookById = (request, response) => {
 	const id = parseInt(request.params.id)
@@ -20,7 +20,7 @@ const getBookById = (request, response) => {
 		}
 		response.status(200).json(results.rows)
 	})
-}
+};
 
 const createBook = (request, response) => {
 	const { title, author, pages_num, review } = request.body
@@ -31,7 +31,7 @@ const createBook = (request, response) => {
 		}
 		response.status(201).json(results.rows);
 	})
-}
+};
 
 const updateBook = (request, response) => {
 	const id = parseInt(request.params.id)
@@ -47,7 +47,7 @@ const updateBook = (request, response) => {
 			response.status(201).json({ message: `Book modified with ID: ${id}` })
 		}
 	)
-}
+};
 
 const deleteBook = (request, response) => {
 	const id = parseInt(request.params.id)
@@ -58,7 +58,7 @@ const deleteBook = (request, response) => {
 		}
 		response.status(204).json({ message: `Books deleted with ID: ${id}` })
 	})
-}
+};
 
 module.exports = {
 	getBooks,

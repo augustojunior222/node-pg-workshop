@@ -25,7 +25,7 @@ VALUES (
     'A Tale of Two Cities',
     'Charles Dickens',
     489, 
-    'A great classic!') 
+    'A great classic!');
 ```
 
 Outro registro: 
@@ -36,7 +36,7 @@ VALUES (
     'Anna Karenina',
     'Leo Tolstoy',
     864,
-    'Another great classic!')     
+    'Another great classic!');  
  ````
 
 ## Guias de Uso

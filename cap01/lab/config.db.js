@@ -5,7 +5,7 @@ const pool = new Pool({
 	database: 'nodeapi',
 	password: 'postgres',
 	port: 35432,
-})
+});
 
 
 module.exports = pool;
