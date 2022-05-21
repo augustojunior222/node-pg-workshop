@@ -1,10 +1,10 @@
 # Criando o Banco de Dados
 
-```
-CREATE DATABASE flask_db;
+```sql
+CREATE DATABASE nodeapi;
 ```
 
-## Criando a tabela de Books
+## Criando a tabela 'books'
 
 ```sql
 CREATE TABLE books (id serial PRIMARY KEY,
@@ -15,7 +15,7 @@ CREATE TABLE books (id serial PRIMARY KEY,
                                  date_added date DEFAULT CURRENT_TIMESTAMP);
 ```
 
-## Inserindo Registros
+## Inserindo registros
 
 Primeiro registro: 
 ```sql
