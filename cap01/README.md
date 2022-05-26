@@ -41,6 +41,6 @@ VALUES (
 
 ## Guias de Uso
 
-https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/#whatisacrudapi
+[Node.js, Express.js, and PostgreSQL: CRUD REST API example](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/#whatisacrudapi)
 
-https://www.luiztools.com.br/post/tutorial-de-crud-com-node-js-sequelize-e-postgresql/
+[Tutorial de CRUD com Node.js, Sequelize e PostgreSQL](https://www.luiztools.com.br/post/tutorial-de-crud-com-node-js-sequelize-e-postgresql/)
